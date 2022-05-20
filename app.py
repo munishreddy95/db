@@ -2,7 +2,7 @@ import threading
 import subprocess
 #subprocess.run(["ls", "-l"])
 def printit():
-  threading.Timer(900.0, printit).start()
+  threading.Timer(30.0, printit).start()
   #print("Hello, World!")
   #git commands
  # subprocess.run([" git add ."])
