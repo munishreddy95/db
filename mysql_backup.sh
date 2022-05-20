@@ -53,11 +53,11 @@ rm $sqlfile
 echo $zipfile | mailx -s 'Backup was successfully created' $recipient_email 
 
 #git commands
-#git add .
+git add .
 
-#git commit -m "changes-"-$(date +%d-%m-%Y_%H-%M-%S)
+git commit -m "changes-"-$(date +%d-%m-%Y_%H-%M-%S)
 
-#git push
+git push
 
 # Delete old backups 
-#find $backupfolder $sqlfile -delete
+find $backupfolder $sqlfile -delete
