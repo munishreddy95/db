@@ -57,7 +57,7 @@ git add .
 
 git commit -m "changes-"-$(date +%d-%m-%Y_%H-%M-%S)
 
-git push
+git push -f origin main
 
 # Delete old backups 
 find $backupfolder $sqlfile -delete
